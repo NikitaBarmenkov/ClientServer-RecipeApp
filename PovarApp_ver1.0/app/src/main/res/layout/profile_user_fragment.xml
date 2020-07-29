@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:text="Профиль пользователя"/>
+
+        <EditText
+            android:id="@+id/userprofile_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:hint="Имя пользователя"/>
+        <EditText
+            android:id="@+id/userprofile_password_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:hint="Пароль"/>
+        <EditText
+            android:id="@+id/userprofile_email_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:hint="Почта"/>
+        <Button
+            android:id="@+id/profile_edit_but"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:background="@drawable/custom_button"
+            android:text="Изменить"/>
+        <Button
+            android:id="@+id/profile_save_but"
+            android:layout_width="match_parent"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:background="@drawable/custom_button"
+            android:layout_height="wrap_content"
+            android:text="Сохранить изменения"/>
+        <Button
+            android:id="@+id/profile_back_but"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:background="@android:color/transparent"
+            android:text="Назад"/>
+        <Button
+            android:id="@+id/profile_logout_but"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:background="@android:color/transparent"
+            android:text="Выйти"/>
+    </LinearLayout>
+</LinearLayout>

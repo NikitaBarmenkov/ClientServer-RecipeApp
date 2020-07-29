@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <EditText
+        android:id="@+id/signin_name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="ИМЯ"/>
+
+    <EditText
+        android:id="@+id/signin_password_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:hint="ПАРОЛЬ"/>
+
+    <Button
+        android:id="@+id/signin_signin_but"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:background="@drawable/custom_button"
+        android:text="ВОЙТИ"/>
+
+    <Button
+       android:id="@+id/signin_signup_but"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="ЗАРЕГИСТРИРОВАТЬСЯ"
+        android:background="@android:color/transparent" />
+
+</LinearLayout>

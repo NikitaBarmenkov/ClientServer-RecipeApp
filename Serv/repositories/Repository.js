@@ -1,0 +1,21 @@
+const dishRep = require('./dishRepository');
+const categoryRep = require('./categoryRepository');
+const ingredientRep = require('./ingredientRepository');
+const recipeStepRep = require('./recipeStepsRepository');
+const dishIngredientRep = require('./dishIngredientsRepository');
+const userRep = require('./userRepository');
+const roleRep = require('./roleRepository');
+const reviewRep = require('./reviewRepository');
+const buyIngsRep = require('./buyIngsRepository');
+const favouritesRep = require('./favouritesRepository');
+
+module.exports.dishRep = dishRep;
+module.exports.categoryRep = categoryRep;
+module.exports.ingredientRep = ingredientRep;
+module.exports.recipeStepRep = recipeStepRep;
+module.exports.dishIngredientRep = dishIngredientRep;
+module.exports.userRep = userRep;
+module.exports.roleRep = roleRep;
+module.exports.reviewRep = reviewRep;
+module.exports.buyIngsRep = buyIngsRep;
+module.exports.favouritesRep = favouritesRep;

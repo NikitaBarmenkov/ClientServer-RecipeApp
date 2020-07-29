@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/signup_name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя"/>
+
+    <EditText
+        android:id="@+id/signup_password_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Пароль"/>
+
+    <EditText
+        android:id="@+id/signup_email_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Адрес электронной почты"/>
+
+    <Button
+        android:id="@+id/signup_signup_but"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:text="Зарегистрироваться"/>
+    <Button
+        android:id="@+id/signup_signin_but"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:background="@android:color/transparent"
+        android:text="Назад"/>
+
+</LinearLayout>
